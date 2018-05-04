@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <attr name="type" format="enum">
+            <enum name="circle" value="1"/>
+            <enum name="round" value="2"/>
+        </attr>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <!--Banner无限轮播属性-->
+    <declare-styleable name="BannerView">
+        <attr name="bannerPageMargin" format="dimension"/>
+        <attr name="bannerPagePercent" format="float"/>
+        <attr name="bannerPageScale" format="float"/>
+        <attr name="bannerPageAlpha" format="float"/>
+        <attr name="bannerScrollDuration" format="integer"/>
+        <attr name="bannerAnimDuration" format="integer"/>
+        <attr name="bannerAnimScroll" format="boolean"/>
+        <attr name="bannerAutoScroll" format="boolean"/>
+    </declare-styleable>
+</resources>

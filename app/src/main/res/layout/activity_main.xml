@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloudzyy.banner.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.cloudzyy.banner.view.BannerView
+            android:id="@+id/bannerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:bannerAnimDuration="1500"
+            app:bannerAnimScroll="true"
+            app:bannerAutoScroll="true"
+            app:bannerPageAlpha="1.0"
+            app:bannerPageMargin="8dp"
+            app:bannerPagePercent="0.8"
+            app:bannerPageScale="0.8"
+            app:bannerScrollDuration="4000" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
