@@ -8,3 +8,5 @@
 /captures
 .externalNativeBuild
 !build.gradle
+!gradlew
+!gradle.properties
